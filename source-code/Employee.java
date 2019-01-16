@@ -1,3 +1,12 @@
+/**
+ * This class is the Employee class used for object relational mapping 
+ * with hibernate to help perform CRUD operations to the Employee table
+ * of hbstudent database.
+ *
+ * @author Kashif Ahmed
+ *
+ */
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -5,15 +14,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * This class is the Employee class used for object relational mapping 
- * with hibernate to help perform CRUD operations to the Employee table
- * of hbstudent database.
- * @author Kashif Ahmed
- *
- */
 
-
+//ORM mapping annotations
 @Entity
 @Table(name="employee")
 public class Employee {
