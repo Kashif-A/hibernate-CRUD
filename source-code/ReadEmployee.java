@@ -1,10 +1,12 @@
-import org.hibernate.Session;
-
 /**
  * This class allows the retrieval of an Employee from
  * the employee table using MySQL database.
+ *
  * @author Kashif Ahmed
  */
+
+import org.hibernate.Session;
+
 public class ReadEmployee {
 	
 	public static void readEmployee(int id) {
