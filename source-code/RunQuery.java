@@ -1,3 +1,10 @@
+/**
+ * This class allows a custom SQL query to be executed in a MySQL database.
+ * Currently, it is running the query: "from Employee s where company='UTIL'".
+ *
+ * @author Kashif Ahmed
+ */
+
 import java.util.List;
 import org.hibernate.Session;
 
