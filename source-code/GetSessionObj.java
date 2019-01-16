@@ -1,3 +1,9 @@
+/**
+* This Class gets a Session object required to interact with database by hibernate.
+*
+* @author Kashif Ahmed
+*/
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
