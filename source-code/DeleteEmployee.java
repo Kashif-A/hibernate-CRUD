@@ -1,3 +1,7 @@
+/**
+* Class to delete an Employee from employee table of a MySQL database.
+* @author Kashif Ahmed
+*/
 import org.hibernate.Session;
 
 public class DeleteEmployee {
