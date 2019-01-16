@@ -1,11 +1,13 @@
-import org.hibernate.Session;
-
 /**
  * This Class allows creation of Employee object which is
  * then mapped to the database. Database gets a new
  * Employee added to it.
+ *
  * @author Kashif Ahmed
  */
+
+import org.hibernate.Session;
+
 public class CreateEmployee {
 		public static void createEmployee(Employee emp) {
 		//Get current session
