@@ -2,8 +2,10 @@
  * This app uses hibernate CRUD opations to create, read,
  * update and delete Employee objects that are mapped to
  * an employee table.
+ *
  * @author Kashif Ahmed
  */
+
 public class Controller {
 
 	public static void main(String[] args) {
